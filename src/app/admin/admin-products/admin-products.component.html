@@ -1,0 +1,7 @@
+<p>
+    <a routerLink="/admin/products/new" class="btn btn-primary">New Product</a>
+</p>
+<p>
+    <input type="text" class="form-control" #query (keyup)="filter(query.value)" placeholder="Search..."/>
+</p>
+
