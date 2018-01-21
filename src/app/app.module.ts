@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { CustomFormsModule } from 'ng2-validation';
-// import { DataTableModule } from 'angular-4-data-table/src/index';
+import { DataTableModule } from 'angular-4-data-table';
 
 
 import { AppComponent } from './app.component';
@@ -60,7 +60,7 @@ export const firebaseConfig = {
     BrowserModule,
     FormsModule,
     CustomFormsModule,
-    //    DataTableModule,
+    DataTableModule,
     NgbModule.forRoot(),
     routing,
     AngularFireDatabaseModule,
