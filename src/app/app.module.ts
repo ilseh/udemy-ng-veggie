@@ -32,6 +32,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
 import { CategoryService } from './category.service';
 import { ProductService } from './product.service';
 import { ProductFilterComponent } from './products/product-filter/product-filter.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyADL3f4QJnOet9-60EV8W4LMHf389bqhTY',
@@ -56,7 +57,8 @@ export const firebaseConfig = {
     LoginComponent,
     MyOrdersComponent,
     ProductFormComponent,
-    ProductFilterComponent
+    ProductFilterComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
