@@ -18,7 +18,7 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
 
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: ProductsComponent },
   { path: 'shopping-cart', component: ShoppingCardComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'login', component: LoginComponent },
