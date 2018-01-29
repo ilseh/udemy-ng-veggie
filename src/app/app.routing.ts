@@ -3,16 +3,16 @@ import { HomeComponent } from './home/home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
-import { ShoppingCardComponent } from './shopping-card/shopping-card.component';
+import { ShoppingCardComponent } from './shopping/components/shopping-card/shopping-card.component';
 import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
 import { ProductFormComponent } from './admin/product-form/product-form.component';
 import { AuthGuardService } from './auth-guard.service';
-import { CheckOutComponent } from './check-out/check-out.component';
-import { OrderSuccessComponent } from './order-success/order-success.component';
-import { ProductsComponent } from './products/products.component';
+import { CheckOutComponent } from './shopping/components/check-out/check-out.component';
+import { OrderSuccessComponent } from './shopping/components/order-success/order-success.component';
+import { ProductsComponent } from './shopping/components/products/products.component';
 import { LoginComponent } from './login/login.component';
-import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { MyOrdersComponent } from './shopping/components//my-orders/my-orders.component';
 
 
 
