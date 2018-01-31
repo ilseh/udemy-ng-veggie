@@ -1,5 +1,5 @@
-import { AuthService } from './auth.service';
-import { UserService } from './user.service';
+import { AuthService } from '../../auth.service';
+import { UserService } from '../../user.service';
 import { Injectable } from '@angular/core';
 import { CanActivate } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
