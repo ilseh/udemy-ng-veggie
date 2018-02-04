@@ -26,7 +26,6 @@ import { ShoppingCartService } from './shopping-cart.service';
 import { ShoppingModule } from './shopping/shopping.module';
 import { AdminModule } from "./admin/admin.module";
 
-
 export const firebaseConfig = {
   apiKey: 'AIzaSyADL3f4QJnOet9-60EV8W4LMHf389bqhTY',
   authDomain: 'veggietest-ecbeb.firebaseapp.com',
