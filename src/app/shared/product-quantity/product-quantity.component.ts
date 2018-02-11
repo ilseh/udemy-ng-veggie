@@ -20,6 +20,4 @@ export class ProductQuantityComponent {
     this.cartService.removeFromCart(this.product);
   }
 
-
-
 }

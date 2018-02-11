@@ -8,6 +8,6 @@ import { ProductQuantityComponent } from "./product-quantity/product-quantity.co
     CommonModule
   ],
   declarations: [ProductCardComponent, ProductQuantityComponent],
-  exports: [ProductCardComponent]
+  exports: [ProductCardComponent, ProductQuantityComponent]
 })
 export class SharedModule { }
