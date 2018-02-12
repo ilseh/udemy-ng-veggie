@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ShoppingCartService } from "../../../shopping-cart.service";
+import { Observable } from "rxjs/Observable";
+import { ShoppingCart } from "../../../models/shopping-cart";
 
 @Component({
   selector: 'app-shopping-card',
@@ -7,7 +9,7 @@ import { ShoppingCartService } from "../../../shopping-cart.service";
   styleUrls: ['./shopping-card.component.css']
 })
 export class ShoppingCardComponent implements OnInit {
-  private cart$: any;
+  public cart$: Observable<ShoppingCart>;
 
   constructor(private shoppingCartService: ShoppingCartService) { }
 

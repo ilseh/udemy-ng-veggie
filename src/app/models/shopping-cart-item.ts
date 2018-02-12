@@ -8,6 +8,7 @@ export class ShoppingCartItem {
   quantity: number;
 
   constructor(init?: Partial<ShoppingCartItem>) {
+    console.log('>>>>>', init.imageUrl);
     Object.assign(this, init);
   }
 
