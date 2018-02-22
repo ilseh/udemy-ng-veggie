@@ -11,11 +11,13 @@ import { OrderSuccessComponent } from './components//order-success/order-success
 import { MyOrdersComponent } from './components/my-orders/my-orders.component';
 import { ProductFilterComponent } from './components/products/product-filter/product-filter.component';
 import { SharedModule } from "../shared/shared.module";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
+    FormsModule,
     RouterModule.forChild([
       { path: 'shopping-cart', component: ShoppingCardComponent },
       { path: 'products', component: ProductsComponent },

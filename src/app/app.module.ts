@@ -25,6 +25,7 @@ import { ProductService } from './product.service'
 import { ShoppingCartService } from './shopping-cart.service';
 import { ShoppingModule } from './shopping/shopping.module';
 import { AdminModule } from "./admin/admin.module";
+import { OrderService } from "./order.service";
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyADL3f4QJnOet9-60EV8W4LMHf389bqhTY',
@@ -56,7 +57,7 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [AuthService, AuthGuardService, UserService, AdminAuthGuardService,
-    CategoryService, ProductService, ShoppingCartService],
+    CategoryService, ProductService, ShoppingCartService, OrderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
