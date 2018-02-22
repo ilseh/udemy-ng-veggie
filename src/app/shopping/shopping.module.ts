@@ -22,7 +22,7 @@ import { FormsModule } from "@angular/forms";
       { path: 'shopping-cart', component: ShoppingCardComponent },
       { path: 'products', component: ProductsComponent },
       { path: 'check-out', component: CheckOutComponent, canActivate: [AuthGuardService] },
-      { path: 'order-success', component: OrderSuccessComponent, canActivate: [AuthGuardService] },
+      { path: 'order-success/:id', component: OrderSuccessComponent, canActivate: [AuthGuardService] },
       { path: 'my/orders', component: MyOrdersComponent, canActivate: [AuthGuardService] }
     ])
   ],
